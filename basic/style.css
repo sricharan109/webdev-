@@ -1,0 +1,137 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+.left{
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: #eff1b7;
+}
+.right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+}
+.top{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(232, 236, 236);
+    display: flex;
+}
+.topleft{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://i.pinimg.com/736x/0a/b2/b0/0ab2b00c3d32c421565a14b5272ffea8.jpg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    border: none;
+    background-size: cover;
+
+    
+}
+.topright{
+    height: 100%;
+    width: 60%;
+    background-image: url(https://i.pinimg.com/736x/2b/15/1d/2b151d3d97a7557c226021a019e7b5cf.jpg);
+    background-size: cover;
+    background-position: center;
+    border:none;
+    
+}
+.bottom{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/736x/a8/59/44/a85944f8383d05c95b788a98fd19f6c2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.margin{
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 30px;
+    
+}
+.marginr a{
+    padding-right: 30px;
+    color:black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.marginr i{
+    color:royalblue;
+    
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.info h1{
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: "Arial", "Helvetica", sans-serif;
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+
+}
+.info p{
+    opacity: .6;
+    font-size: 1rem;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #223732 ;
+    font-weight: 700;
+
+}
+.info a{
+    text-decoration: none;
+    color:black;
+    font-family: cursive;
+    border-bottom: 4px solid ;
+    font-weight: 800;
+}
+.arrow{
+    color: black;
+}
+@media(max-width:500px){
+    .main{
+        flex-direction: column;
+        
+        
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+
+}
